@@ -1,0 +1,39 @@
+11:42:41 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	plugin path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/plugins
+	struct path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/grt
+	module path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules
+	library path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/libraries
+	user data dir: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+11:42:41 [INF][      WBContext]: WbContext::init
+11:42:42 [INF][            WBA]: Looking for extension modules for WBA...
+11:42:42 [INF][            WBA]: 0 extension modules found
+11:42:42 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:42:42 [WRN][            grt]: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench/server_instances.xml:17: link '0822a9c4-da5f-11ec-b56b-c9e068c3aea5' <object GrtObject> key=owner could not be resolved
+11:42:42 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:42:42 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.25 CE build 788958 (64 bit)
+	Configuration Directory: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	Data Directory: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 20.04 x86_64
+	CPU: 4x Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (1600.000MHz) - 3.74GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 20.04
+
+	Fips mode enabled: no
+
+11:42:42 [INF][    WQE backend]: Found auto-save workspace /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench/sql_workspaces/root-1.autosave
+11:42:44 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:42:44 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:42:44 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:42:44 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:42:44 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:42:44 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')

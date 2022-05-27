@@ -1,0 +1,50 @@
+11:40:22 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	plugin path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/plugins
+	struct path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/grt
+	module path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules
+	library path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/libraries
+	user data dir: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+11:40:22 [INF][      WBContext]: WbContext::init
+11:40:24 [INF][            WBA]: Looking for extension modules for WBA...
+11:40:24 [INF][            WBA]: 0 extension modules found
+11:40:24 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:40:24 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:40:25 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.25 CE build 788958 (64 bit)
+	Configuration Directory: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	Data Directory: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 20.04 x86_64
+	CPU: 4x Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (1600.000MHz) - 3.74GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 20.04
+
+	Fips mode enabled: no
+
+11:40:45 [INF][               ]: Remote error from secret service: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5762 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.14" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+11:40:45 [ERR][      WBContext]: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5762 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.14" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+11:42:09 [INF][               ]: Remote error from secret service: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5762 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.14" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+11:42:09 [ERR][SQL Editor Form]: SQL editor could not be connected: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5762 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.14" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+11:42:09 [ERR][SQL Editor Form]: Your connection attempt failed for user 'root' to the MySQL server at localhost:3306:
+  An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.116" (uid=1000 pid=5762 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.14" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+
+Please:
+1 Check that MySQL is running on address localhost
+2 Check that MySQL is reachable on port 3306 (note: 3306 is the default, but this can be changed)
+3 Check the user root has rights to connect to localhost from your address (MySQL rights define what clients can connect to the server and from which machines) 
+4 Make sure you are both providing a password if needed and using the correct password for localhost connecting from the host address you're connecting from
+11:42:35 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:42:35 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:42:35 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:42:35 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:42:35 [INF][  column_widths]: Initializing column width cache for root
+11:42:35 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:42:35 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')

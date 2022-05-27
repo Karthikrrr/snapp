@@ -1,0 +1,35 @@
+19:23:20 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	plugin path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/plugins
+	struct path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/grt
+	module path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules
+	library path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/libraries
+	user data dir: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+19:23:20 [INF][      WBContext]: WbContext::init
+19:23:22 [INF][            WBA]: Looking for extension modules for WBA...
+19:23:22 [INF][            WBA]: 0 extension modules found
+19:23:22 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:23:22 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:23:23 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.25 CE build 788958 (64 bit)
+	Configuration Directory: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	Data Directory: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 20.04 x86_64
+	CPU: 4x Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (1900.000MHz) - 3.74GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 20.04
+
+	Fips mode enabled: no
+
+19:26:56 [INF][               ]: Remote error from secret service: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.153" (uid=1000 pid=7946 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+19:26:56 [ERR][      WBContext]: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.153" (uid=1000 pid=7946 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+19:28:15 [INF][               ]: Remote error from secret service: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.153" (uid=1000 pid=7946 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")
+19:28:15 [ERR][      WBContext]: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.153" (uid=1000 pid=7946 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo" label="snap.mysql-workbench-community.mysql-workbench-community (enforce)") interface="org.freedesktop.Secret.Service" member="OpenSession" error name="(unset)" requested_reply="0" destination=":1.13" (uid=1000 pid=2814 comm="/usr/bin/gnome-keyring-daemon --daemonize --login " label="unconfined")

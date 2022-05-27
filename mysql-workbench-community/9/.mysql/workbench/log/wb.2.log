@@ -1,0 +1,163 @@
+11:42:52 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	plugin path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/plugins
+	struct path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/grt
+	module path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules
+	library path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/libraries
+	user data dir: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+11:42:52 [INF][      WBContext]: WbContext::init
+11:42:53 [INF][            WBA]: Looking for extension modules for WBA...
+11:42:53 [INF][            WBA]: 0 extension modules found
+11:42:53 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:42:53 [WRN][            grt]: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench/connections.xml:25: link '5a60351c-da5f-11ec-b56b-c9e068c3aea5' <object GrtObject> key=owner could not be resolved
+11:42:53 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:42:53 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.25 CE build 788958 (64 bit)
+	Configuration Directory: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	Data Directory: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 20.04 x86_64
+	CPU: 4x Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (1600.000MHz) - 3.74GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 20.04
+
+	Fips mode enabled: no
+
+11:42:53 [INF][    WQE backend]: Found auto-save workspace /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench/sql_workspaces/root-1.autosave
+11:43:11 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:43:11 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:43:11 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:43:11 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:43:11 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:43:11 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:43:11 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:47:05 [ERR][sqlide_grt.py:enbeautificate:333]: Error reformating SQL: #
+# Starting with MySQL 8.0.26, the MySQL team changed the 
+# default authentication plugin for MySQL server 
+# from mysql_native_password to caching_sha2_password.
+#
+# The command below will make the appropriate updates for your user account.
+#
+# See the MySQL Reference Manual for details: 
+# https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
+#
+ALTER USER 'ecommerceapp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ecommerceapp'
+Traceback (most recent call last):
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 330, in enbeautificate
+    result = doReformatSQLStatement(statement, True)
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 233, in doReformatSQLStatement
+    raise Exception("Error parsing statement: %s" % ast_list[0])
+Exception: Error parsing statement: SQL syntax error near 'IDENTIFIED WITH mysql_native_password BY 'ecommerceapp''
+
+11:48:15 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:15 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:15 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:15 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:16 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:16 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:16 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:16 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:16 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:16 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:16 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:16 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:17 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:17 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:17 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:17 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:22 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:22 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:22 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:22 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:23 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:23 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:23 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:48:23 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:48:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:48:46 [ERR][         python]: error calling SQLIDEUtils.runSQLScript
+Traceback:
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 625, in runSQLScript
+        return form.run()
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 355, in run
+                if dlg.run(chooser.get_path()):
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 238, in run
+            result = self.editor.executeManagementQuery("SHOW SCHEMAS", 0)
+NameError: DBMS connection is not available
+11:48:46 [ERR][            grt]: Error executing plugin wb.sqlide.runScript: error calling Python module function SQLIDEUtils.runSQLScript	
+11:48:46 [ERR][      WBContext]: error calling Python module function SQLIDEUtils.runSQLScript
+11:49:06 [ERR][         python]: error calling SQLIDEUtils.runSQLScript
+Traceback:
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 625, in runSQLScript
+        return form.run()
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 355, in run
+                if dlg.run(chooser.get_path()):
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 238, in run
+            result = self.editor.executeManagementQuery("SHOW SCHEMAS", 0)
+NameError: DBMS connection is not available
+11:49:06 [ERR][            grt]: Error executing plugin wb.sqlide.runScript: error calling Python module function SQLIDEUtils.runSQLScript	
+11:49:06 [ERR][      WBContext]: error calling Python module function SQLIDEUtils.runSQLScript
+11:49:11 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:49:11 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:49:11 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:49:31 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:49:31 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:49:31 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:50:00 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:50:00 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:50:49 [ERR][         python]: error calling SQLIDEUtils.runSQLScript
+Traceback:
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 625, in runSQLScript
+        return form.run()
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 355, in run
+                if dlg.run(chooser.get_path()):
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 238, in run
+            result = self.editor.executeManagementQuery("SHOW SCHEMAS", 0)
+NameError: DBMS connection is not available
+11:50:49 [ERR][            grt]: Error executing plugin wb.sqlide.runScript: error calling Python module function SQLIDEUtils.runSQLScript	
+11:50:49 [ERR][      WBContext]: error calling Python module function SQLIDEUtils.runSQLScript
+11:51:21 [ERR][         python]: error calling SQLIDEUtils.runSQLScript
+Traceback:
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/sqlide_grt.py", line 625, in runSQLScript
+        return form.run()
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 355, in run
+                if dlg.run(chooser.get_path()):
+  File "/snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules/run_script.py", line 238, in run
+            result = self.editor.executeManagementQuery("SHOW SCHEMAS", 0)
+NameError: DBMS connection is not available
+11:51:21 [ERR][            grt]: Error executing plugin wb.sqlide.runScript: error calling Python module function SQLIDEUtils.runSQLScript	
+11:51:21 [ERR][      WBContext]: error calling Python module function SQLIDEUtils.runSQLScript
+11:52:21 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:52:21 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:52:21 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:52:21 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:52:21 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:52:21 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:52:21 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:52:47 [ERR][            grt]: Invalid path element 'doc' in path: /wb/doc/physicalModels/0/catalog
+11:54:22 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object

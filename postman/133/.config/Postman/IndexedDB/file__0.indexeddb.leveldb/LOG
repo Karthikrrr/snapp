@@ -1,0 +1,19 @@
+2022/05/24-20:48:52.409 2409 Reusing MANIFEST /home/rohit/snap/postman/133/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2022/05/24-20:48:52.409 2409 Recovering log #77
+2022/05/24-20:48:52.414 2409 Reusing old log /home/rohit/snap/postman/133/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000077.log 
+2022/05/24-20:48:58.525 24ab Compacting 1@1 + 1@2 files
+2022/05/24-20:48:58.594 24ab Generated table #80@1: 5718 keys, 547433 bytes
+2022/05/24-20:48:58.594 24ab Compacted 1@1 + 1@2 files => 547433 bytes
+2022/05/24-20:48:58.628 24ab compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/24-20:49:04.700 24ab Level-0 table #82: started
+2022/05/24-20:49:04.774 24ab Level-0 table #82: 23179 bytes OK
+2022/05/24-20:49:04.856 24ab Delete type=0 #77
+2022/05/24-20:49:04.856 24ab Delete type=2 #75
+2022/05/24-20:49:04.856 24ab Delete type=2 #78
+2022/05/24-20:49:04.874 24ab Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/24-20:49:29.136 24ab Compacting 1@1 + 1@2 files
+2022/05/24-20:49:29.331 24ab Generated table #83@1: 5726 keys, 548979 bytes
+2022/05/24-20:49:29.331 24ab Compacted 1@1 + 1@2 files => 548979 bytes
+2022/05/24-20:49:29.365 24ab compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/24-20:49:29.365 24ab Delete type=2 #82
+2022/05/24-20:49:29.365 24ab Delete type=2 #80

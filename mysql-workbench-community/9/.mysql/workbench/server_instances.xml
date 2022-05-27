@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0x56475720c830" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="4633b274-da5f-11ec-b56b-c9e068c3aea5" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">392cf31b-da5f-11ec-b56b-c9e068c3aea5</link>
+      <value _ptr_="0x564757850a30" type="dict" key="loginInfo">
+        <value type="string" key="ssh.hostName"></value>
+        <value type="string" key="ssh.key">~/.ssh/ssh_private_key</value>
+        <value type="string" key="ssh.localPort">3306</value>
+        <value type="int" key="ssh.useKey">0</value>
+        <value type="string" key="ssh.userName">mysql</value>
+      </value>
+      <value _ptr_="0x56475782cff0" type="dict" key="serverInfo">
+        <value type="string" key="detected_os_name">Linux</value>
+        <value type="string" key="detected_os_type">linux</value>
+        <value type="string" key="detected_os_variant">Ubuntu</value>
+        <value type="string" key="detected_os_version">20.04</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="int" key="sys.usesudo">0</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+      </value>
+      <value type="string" key="name">root</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="5775e0e6-db29-11ec-9c01-0f002c14f0db" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">4577393b-db29-11ec-9c01-0f002c14f0db</link>
+      <value _ptr_="0x5647590ce050" type="dict" key="loginInfo">
+        <value type="string" key="ssh.port">22</value>
+        <value type="int" key="ssh.useKey">0</value>
+      </value>
+      <value _ptr_="0x564758aa6360" type="dict" key="serverInfo">
+        <value type="int" key="remoteAdmin">0</value>
+        <value type="string" key="serverVersion">5.7</value>
+        <value type="string" key="sys.config.path">/etc/my.cnf</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name"></value>
+        <value type="string" key="sys.mysqld.start">systemctl start mysqld.service</value>
+        <value type="string" key="sys.mysqld.stop">systemctl stop mysqld.service</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.system">Linux</value>
+        <value type="int" key="sys.usesu">1</value>
+        <value type="int" key="sys.usesudo">1</value>
+        <value type="int" key="windowsAdmin">0</value>
+      </value>
+      <value type="string" key="name"> instance</value>
+      <link type="object" struct-name="GrtObject" key="owner">a48635d8-db27-11ec-9c01-0f002c14f0db</link>
+    </value>
+  </value>
+</data>

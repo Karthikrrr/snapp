@@ -1,0 +1,74 @@
+propsReply "An AppArmor policy prevents this sender from sending this message to this recipient; type=\"method_call\", sender=\":1.252\" (uid=1000 pid=18881 comm=\"/snap/vokoscreen-ng/105/vokoscreenNG \" label=\"snap.vokoscreen-ng.vokoscreen-ng (enforce)\") interface=\"org.freedesktop.DBus.Properties\" member=\"GetAll\" error name=\"(unset)\" requested_reply=\"0\" destination=\"org.freedesktop.NetworkManager\" (uid=0 pid=739 comm=\"/usr/sbin/NetworkManager --no-daemon \" label=\"unconfined\")"
+nmReply "An AppArmor policy prevents this sender from sending this message to this recipient; type=\"method_call\", sender=\":1.252\" (uid=1000 pid=18881 comm=\"/snap/vokoscreen-ng/105/vokoscreenNG \" label=\"snap.vokoscreen-ng.vokoscreen-ng (enforce)\") interface=\"org.freedesktop.NetworkManager\" member=\"GetDevices\" error name=\"(unset)\" requested_reply=\"0\" destination=\"org.freedesktop.NetworkManager\" (uid=0 pid=739 comm=\"/usr/sbin/NetworkManager --no-daemon \" label=\"unconfined\")"
+"Object path cannot be empty"
+[vokoscreenNG] Version: 3.0.8
+[vokoscreenNG] Locale: en_IN
+[vokoscreenNG] Log from: 2021-04-08 15:06:21
+[vokoscreenNG] Country: India
+[vokoscreenNG] Qt: 5.9.5
+[vokoscreenNG] GStreamer 1.14.5
+[vokoscreenNG] Operating system: Ubuntu Core 18
+[vokoscreenNG] CPU Architecture: x86_64
+[vokoscreenNG] Count CPU: 4
+[vokoscreenNG] vokoscreenNG running as: xcb client
+[vokoscreenNG] vokoscreenNG running on: x11
+[vokoscreenNG] Desktop: ubuntu:GNOME
+[vokoscreenNG] Icon-Theme: Adwaita
+[vokoscreenNG] Styles: (Windows, Fusion)
+[vokoscreenNG] Qt-PluginsPath:      /usr/lib/x86_64-linux-gnu/qt5/plugins
+[vokoscreenNG] Qt-TranslationsPath: /usr/share/qt5/translations
+[vokoscreenNG] Qt-LibraryPath:      /usr/lib/x86_64-linux-gnu
+[vokoscreenNG] Settings: /home/rohit/snap/vokoscreen-ng/105/.config/vokoscreenNG/vokoscreenNG.ini
+[vokoscreenNG] Log: /home/rohit/snap/vokoscreen-ng/105/.config/vokoscreenNG/log/2021_04_08_15_06_18.log
+[vokoscreenNG] Default Videopath: /home/rohit/Videos
+[vokoscreenNG] User Videopath: /home/rohit/Videos
+[vokoscreenNG] CompositingManager running: true
+
+[vokoscreenNG] [Audio] Found: Monitor of Built-in Audio Analog Stereo Device: alsa_output.pci-0000_00_1b.0.analog-stereo.monitor
+[vokoscreenNG] [Audio] Found: Built-in Audio Analog Stereo Device: alsa_input.pci-0000_00_1b.0.analog-stereo
+
+[vokoscreenNG] Symbols: + available, - not available
+[vokoscreenNG] + matroskamux
+[vokoscreenNG] + webmmux
+[vokoscreenNG] + avimux
+[vokoscreenNG] + mp4mux
+[vokoscreenNG] + qtmux
+[vokoscreenNG] + x264enc
+[vokoscreenNG] - openh264enc
+[vokoscreenNG] - vaapih264enc
+[vokoscreenNG] - vaapimpeg2enc
+[vokoscreenNG] + vp8enc
+[vokoscreenNG] + vorbisenc
+[vokoscreenNG] + flacenc
+[vokoscreenNG] + opusenc
+[vokoscreenNG] + lamemp3enc
+[vokoscreenNG] + voaacenc
+
+[vokoscreenNG] + ximagesrc
+[vokoscreenNG] + pulsesrc
+[vokoscreenNG] - pipewiresrc
+[vokoscreenNG] + queue
+[vokoscreenNG] + capsfilter
+[vokoscreenNG] + videoconvert
+[vokoscreenNG] + videorate
+[vokoscreenNG] + audioconvert
+[vokoscreenNG] + audiorate
+[vokoscreenNG] + filesink
+[vokoscreenNG] + videoscale
+[vokoscreenNG] + h264parse
+[vokoscreenNG] + audiomixer
+[vokoscreenNG] + adder
+
+[vokoscreenNG] Name from screen:  VGA-1
+[vokoscreenNG] Screen available desktop width : 1366
+[vokoscreenNG] Screen available desktop height: 768
+[vokoscreenNG] DevicePixelRatio: 1  (Normal displays is 1, Retina display is 2)
+[vokoscreenNG] Vertical refresh rate of the screen in Hz: 59
+[vokoscreenNG] Screen orientation Qt::ScreenOrientation(LandscapeOrientation)
+[vokoscreenNG] Color depth of the screen:  24
+[vokoscreenNG] Model from screen:  
+[vokoscreenNG] Manufactur from screen:  
+[vokoscreenNG] SerialNumber from screen:  
+[vokoscreenNG] ItemText in Combobox: VGA-1 :  1366 x 768
+[vokoscreenNG] ItemData in Combobox: x=0 y=0 with=1366 height=768
+

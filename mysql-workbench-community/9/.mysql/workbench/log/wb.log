@@ -1,0 +1,86 @@
+11:36:24 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	plugin path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/plugins
+	struct path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/grt
+	module path: /snap/mysql-workbench-community/9/usr/lib/mysql-workbench/modules
+	library path: /snap/mysql-workbench-community/9/usr/share/mysql-workbench/libraries
+	user data dir: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+11:36:24 [INF][      WBContext]: WbContext::init
+11:36:26 [INF][            WBA]: Looking for extension modules for WBA...
+11:36:26 [INF][            WBA]: 0 extension modules found
+11:36:26 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:36:26 [WRN][            grt]: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench/connections.xml:25: link '52e47990-da61-11ec-b56b-c9e068c3aea5' <object GrtObject> key=owner could not be resolved
+11:36:26 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+11:36:26 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.25 CE build 788958 (64 bit)
+	Configuration Directory: /home/rohit/snap/mysql-workbench-community/9/.mysql/workbench
+	Data Directory: /snap/mysql-workbench-community/9/usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS: Ubuntu 20.04 x86_64
+	CPU: 4x Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz (2704.351MHz) - 3.74GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 20.04
+
+	Fips mode enabled: no
+
+11:36:36 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:36:36 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:36:36 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:36:36 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:36:36 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:36:36 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:36:36 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:37:31 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:37:32 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:37:32 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:37:32 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:37:32 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:37:32 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:37:32 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:40:50 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:40:50 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:41:18 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:46:05 [WRN][ Canvas backend]: Could not load image '@images/MySQL_clr.png' for 'Image'
+11:46:08 [WRN][ Canvas backend]: Could not load image '@images/MySQL_clr.png' for 'Image'
+11:47:44 [INF][   WBContext UI]: Opening Migration Wizard...
+11:47:44 [WRN][         mforms]: Resource file not found: migration_win.png
+11:47:44 [WRN][            grt]: in com.mysql.rdbms.sql92.driver.odbc_dsn: unserialized XML contains invalid member db.mgmt.PythonDBAPIDriver::accessibilityNameLoaded 0/0 new non-MySQL connections
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:47:44 [WRN][         mforms]: Resource file not found: migration_check_open_win.png
+11:49:08 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: File /etc/my.cnf doesn't exist
+11:49:08 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.File /etc/my.cnf doesn't exist
+11:57:34 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:57:34 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:57:34 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:57:34 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:57:35 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+11:57:35 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:57:35 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:57:35 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+11:57:42 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+11:57:42 [WRN][SQL Editor Form]: Unable to connect to localhost
+11:57:42 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:57:42 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+11:57:42 [ERR][SQL Editor Form]: Unable to create db_mgmt_SSHConnectionRef object
+11:57:43 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+11:57:43 [INF][wb_admin_control.py:query_server_installation_info:858]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+11:57:43 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
